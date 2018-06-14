@@ -1,0 +1,16 @@
+
+
+- Separar o texto de um documento em palavras
+- normalizar palavras
+- criar um mapa(dicionário) de posições de palavras para cada documento (II)
+		. {'palavra':[2,5]}
+- criar um mapa(dicionário) de posições de palavras para todos os documentos (II)
+		. {'palavra':{'doc1': [1], 'doc2': [2, 5]}}
+- criar shingles (MH)
+- Shingling: transformar shingles em inteiros(hashing) (MH)
+- Aplicar o algoritmo de minhash (MH)
+		- criar as funções de minhash (coeficientes que serão usados)
+		- aplicar as funções para todos os shingles(inteiro) de um documento
+		- escolher os menores resultados das funções e adicioná-los à assinatura do documento
+		- repetir para todos os documentos
+- Fazer função de comparação de assinaturas (MH)
